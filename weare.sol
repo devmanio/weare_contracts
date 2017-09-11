@@ -85,7 +85,7 @@ contract StandardToken is Token {
 
 contract WeAre is SafeMath, StandardToken {
 
-    string public constant name = "WeAre PreSale Token2";
+    string public constant name = "WeAre PreSale Token";
     string public constant symbol = "WAPT";
     uint256 public constant decimals = 18;
     uint256 public constant tokenCreationCap =  35000*10**decimals;
